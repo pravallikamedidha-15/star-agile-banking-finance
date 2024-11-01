@@ -3,8 +3,7 @@ pipeline {
     stages { 
         stage('Checkout the Code from GitHub') { 
             steps { 
-                git url: 'git@github.com:pravallikamedidha-15/star-agile-banking-finance.git', 
-                    credentialsId: 'jenkinsslave'
+                git url: 'https://github.com/pravallikamedidha-15/star-agile-banking-finance/'
                 echo 'GitHub URL checkout successful' 
             } 
         } 
